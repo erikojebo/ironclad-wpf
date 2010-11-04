@@ -1,0 +1,14 @@
+Ironclad WPF is a small library with useful stuff for developing
+Windows Presentation Foundation applications using Iron Ruby.
+
+
+INotifyPropertyChanged: 
+
+If you are using the Model-View-View Model pattern you probably know
+how annoying it is to bave to raise the PropertyChanged event for all
+your view model properties that are used for databinding. This problem
+is solved by Ironclad WPF through the module
+NotifyPropertyChanged. Now all you have to do to get
+INotifyPropertyChanged support in your view model is to include this
+module and define property_changed_accessor just as you would have
+done with ordinary attr_accessors.
